@@ -21,8 +21,8 @@ function App() {
     <div className="app">
       <h1>My Wishlist</h1>
 
-      <WishInput onNewWish={onNewWish}/>
-      <WishList wishes={wishes} />
+      <WishInput onNewWish={onNewWish} />
+      <WishList wishes={wishes} setWishes={setWishes} />
       <button>Achieve all wishes</button>
     </div>
   );
